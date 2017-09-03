@@ -1,23 +1,23 @@
-/* line 1, ../sass/partials/events.scss */
+/* line 1, ../../sass/partials/events.scss */
 .events {
   background-color: grey;
   padding: 100px;
 }
-/* line 5, ../sass/partials/events.scss */
+/* line 5, ../../sass/partials/events.scss */
 .events .wrapper {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 11, ../sass/partials/events.scss */
+/* line 11, ../../sass/partials/events.scss */
 .events .wrapper .box {
   display: inline-block;
   width: 150px;
   height: 150px;
   margin: 50px;
 }
-/* line 17, ../sass/partials/events.scss */
+/* line 17, ../../sass/partials/events.scss */
 .events .wrapper .box .circle {
   display: flex;
   align-items: center;
@@ -28,12 +28,12 @@
   height: 100%;
   padding: 20px;
 }
-/* line 27, ../sass/partials/events.scss */
+/* line 27, ../../sass/partials/events.scss */
 .events .wrapper .box .circle input {
   width: 100%;
 }
 
-/* line 35, ../sass/partials/events.scss */
+/* line 35, ../../sass/partials/events.scss */
 .fill {
   background-color: #BEFFC7;
 }

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>jQuery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
@@ -13,15 +14,56 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="stylesheets/font-awesome/css/font-awesome.css" type="text/css">
 </head>
+
 <body>
+    <section class="events">
+        <div class="wrapper">
+            <div class="box">
+                <div class="circle --click">
+                    <div class="content">Click</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="circle --dblclick">
+                    <div class="content">Double Click</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="circle --hover">
+                    <div class="content">Hover</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="circle --mousedown --mouseup">
+                    <div class="content">Mouse Down<br>Mouse Up</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="circle --mouseenter --mouseleave">
+                    <div class="content">Mouse Enter<br>Mouse Leave</div>
+                </div>
+            </div>
+            <div class="box">
+              <div class="circle">
+                <input type="text" placeholder="focus, blur" class="--focus --blur">
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle">
+                <input type="text" placeholder="change" class="--change">
+              </div>
+            </div>
+        </div>
+    </section>
 
 
 
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Own Script -->
-  <script src="js/scripts.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Own Script -->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
