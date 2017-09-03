@@ -1,0 +1,11 @@
+/* line 1, ../../sass/partials/scroller.scss */
+.scroller {
+  background-color: #779CAB;
+  height: 3000px;
+  text-align: center;
+}
+/* line 5, ../../sass/partials/scroller.scss */
+.scroller h1 {
+  margin: 0;
+  padding: 100px;
+}

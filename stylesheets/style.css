@@ -37,3 +37,34 @@
 .fill {
   background-color: #BEFFC7;
 }
+
+/* line 1, ../sass/partials/scroller.scss */
+.scroller {
+  background-color: #779CAB;
+  height: 3000px;
+  text-align: center;
+}
+/* line 5, ../sass/partials/scroller.scss */
+.scroller h1 {
+  margin: 0;
+  padding: 100px;
+}
+
+/* line 1, ../sass/partials/progress-line.scss */
+.progress-line {
+  background-color: black;
+  height: 6px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/* line 9, ../sass/partials/progress-line.scss */
+.progress-line .line {
+  background-color: #BEFFC7;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+}
